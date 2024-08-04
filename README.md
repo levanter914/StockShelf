@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Stock Shelf
 
-## Getting Started
+Welcome to **Stock Shelf** – a modern inventory management application built with Next.js and Firebase. This application allows users to manage their inventory and upload images associated with inventory items.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Inventory Management**: Add, remove, and manage items with quantities.
+- **Sort and Search Inventory**: Sort inventory according to name and quantity, search among the items
+- **Image Upload**: Upload images associated with inventory items.
+- **Responsive Design**: Fully responsive UI using Material-UI.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Directory Structure
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **`components/`**: Contains React components.
+- **`pages/`**: Contains Next.js pages and API routes.
+- **`public/`**: Contains static assets.
+- **`styles/`**: Contains CSS or styled components.
+- **`lib/`**: Contains external libraries and API clients (e.g., `visionClient.js`).
+- **`utils/`**: Contains utility functions.
+- **`.env.local`**: Environment variables.
+- **`package.json`**: Project dependencies and scripts.
+- **`next.config.js`**: Next.js configuration.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+- **Add New Item**: Click the "Add New Item" button to open the modal. Enter item details and upload an image if available.
+- **View Item Image**: Click on an item name to view its image in a modal.
+- **Manage Inventory**: Use the "+" and "-" buttons to adjust quantities, or "Remove All" to delete an item from inventory.
 
-To learn more about Next.js, take a look at the following resources:
+## Made with love<3
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
